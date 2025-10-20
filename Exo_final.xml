@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lettres SYSTEM 'Exo_final.dtd'>
+<lettres>
+    <lettre>
+        <en-tête>
+            <date when="" calendar="gregorian"></date>
+            <destinataire>
+                <nom></nom>
+                <prénom></prénom>
+            </destinataire>
+        </en-tête>
+        <corps>
+            <paragraphe></paragraphe>
+        </corps>
+        <pied>
+            <formule_fin></formule_fin>
+            <auteur>
+                <nom></nom>
+                <prénom></prénom>
+                <adresse></adresse>
+            </auteur>
+            <signature></signature>
+            <post-scriptum></post-scriptum>
+        </pied>
+    </lettre>
+    <lettre>
+        <en-tête>
+            <date when='2025' calendar="gregorian"></date>
+            <destinataire>
+                <nom></nom>
+                <prénom></prénom>
+            </destinataire>
+        </en-tête>
+        <corps>
+            <paragraphe></paragraphe>
+        </corps>
+        <pied>
+            <formule_fin></formule_fin>
+            <auteur>
+                <nom></nom>
+                <prénom></prénom>
+                <adresse></adresse>
+            </auteur>
+            <signature></signature>
+            <post-scriptum></post-scriptum>
+        </pied>
+    </lettre>
+    <lettre>
+        <en-tête>
+        <date when="" calendar="gregorian"></date>
+        <destinataire>
+            <nom></nom>
+            <prénom></prénom>
+        </destinataire>
+    </en-tête>
+    <corps>
+        <paragraphe></paragraphe>
+    </corps>
+    <pied>
+        <formule_fin></formule_fin>
+        <auteur>
+            <nom></nom>
+            <prénom></prénom>
+            <adresse></adresse>
+        </auteur>
+        <signature></signature>
+        <post-scriptum></post-scriptum>
+    </pied>
+    </lettre>
+</lettres>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT lettres (lettre+) >
+<!ELEMENT lettre (en-tête, corps, pied)>
+<!ELEMENT en-tête (émetteur?, date, destinataire)>
+<!ELEMENT émetteur (#PCDATA) >
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date calendar (julian | gregorian | chinese | other) #REQUIRED>
+<!ATTLIST date when CDATA #REQUIRED>
+<!ELEMENT destinataire (nom, prénom, adresse?)>
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prénom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT corps (paragraphe+)>
+<!ELEMENT paragraphe (personne?, lieu?, évènement?)>
+<!ELEMENT personne (#PCDATA) >
+<!ELEMENT lieu (#PCDATA) >
+<!ELEMENT évènement (#PCDATA) >
+<!ELEMENT pied (formule_fin, auteur?, signature, post-scriptum?)>
+<!ELEMENT formule_fin (#PCDATA) >
+<!ELEMENT auteur (nom, prénom, adresse?) >
+<!ELEMENT signature (#PCDATA) >
+<!ELEMENT post-scriptum (#PCDATA) >
